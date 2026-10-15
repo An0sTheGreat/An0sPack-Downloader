@@ -92,7 +92,13 @@ Some archives without an automatic download source may need to be supplied manua
 
 ## Getting started
 
-### 1. Get the complete application
+### 1. Download the application
+
+Open the [Releases tab](https://github.com/An0sTheGreat/An0sPack-Downloader/releases), download the application ZIP from the latest release, and extract it. Run **An0sPackDownloader.exe** from the extracted folder.
+
+### 2. Get source code (optional)
+
+Skip this step if you downloaded the application ZIP.
 
 With [Git LFS](https://git-lfs.com/) installed:
 
@@ -104,7 +110,7 @@ cd An0sPack-Downloader
 
 Keep **`An0sPackDownloader.exe`**, **`assets/`**, and **`data/`** together. Check that the executable and `data/profiles/An0sPack - CS.an0s` are real downloaded files, rather than small Git LFS pointer files.
 
-### 2. Choose and configure the profile
+### 3. Choose and configure the profile
 
 1. Run **An0sPackDownloader.exe** and select **An0sPack - CS**.
 2. Click **Continue** and choose a new, empty installation folder, such as `D:\Modding\An0sPack`.
